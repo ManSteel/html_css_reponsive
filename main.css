@@ -191,6 +191,10 @@ header{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
 }
 
 .logo{
@@ -250,9 +254,13 @@ header{
 .meal-photo img{
     width: 100%;
     margin: 0;
-    transform: scale(1.15);
+    transform: scale(1.5);
     opacity: 0.7;
     transition: transform 0.5s, opacity 0.5s;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
 }
 .meal-photo img:hover{
     opacity: 1;
